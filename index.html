@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Oxanium:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/logo.png" alt="Logo One Piece" class="logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um Personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="luffy" data-name="Monkey D. Luffy"
+                data-description="Luffy é um jovem pirata determinado a se tornar o Rei dos Piratas. Ele possui poderes elásticos e lidera a tripulação dos Chapéus de Palha.">
+                    <img src="./src/imagens/cartaz_luffy.webp" alt="Personagem Luffy" >
+                </li>
+
+                <li class="personagem" id="zoro" data-description="Zoro é um espadachim extremamente habilidoso, conhecido por sua técnica de luta de três espadas. Ele empunha uma espada em cada mão e uma na boca, permitindo-lhe executar ataques rápidos e poderosos." data-name="Zoro">
+                    <img src="./src/imagens/cartaz_zoro.webp" alt="Personagem Zoro">
+                </li>
+
+                <li class="personagem" id="nami" data-description="Nami é a navegadora dos Chapéus de Palha, conhecida por sua inteligência, habilidades de navegação e sua busca incansável por tesouros." data-name="Nami">
+                    <img src="./src/imagens/cartaz_nami.webp" alt="Personagem Nami">
+                </li>
+
+                <li class="personagem" id="sanji" data-description="Sanji é um cozinheiro talentoso e apaixonado, capaz de criar pratos deliciosos e requintados mesmo com ingredientes limitados. Seu principal estilo de luta é conhecido como Black Leg (Perna Negra)." data-name="Sanji">
+                    <img src="./src/imagens/cartaz_sanji.webp" alt="Personagem Sanji">
+                </li>
+
+                <li class="personagem" id="brook" data-description="Brook é um músico e esqueleto vivo. Além de sua habilidade musical, ele é um espadachim habilidoso, especializado em esgrima." data-name="Brook">
+                    <img src="./src/imagens/cartaz_brook.webp" alt="Personagem Brook">
+                </li>
+
+                <li class="personagem" id="chopper" data-description="Chopper é uma rena que comeu a Hito Hito no Mi, o que lhe concedeu a habilidade de se transformar em uma rena-humana. Chopper é conhecido por sua personalidade adorável e suas habilidades medicinais." data-name="Chopper">
+                    <img src="./src/imagens/cartaz_chopper.webp" alt="Personagem Chopper">
+                </li>
+
+                <li class="personagem" id="nico_robin" data-description="Nico Robin é conhecida por sua inteligência excepcional e vasto conhecimento histórico. Ela comeu a Hana Hana no Mi que permite que ela crie cópias de partes do seu corpo em diferentes superfícies.">
+                    <img src="./src/imagens/cartaz_nico_robin.webp" alt="Personagem Nico Robin">
+                </li>
+
+                <li class="personagem" id="sogeking" data-description="Sogeking é a identidade adotada por Usopp, quando ele precisa de um disfarce para lutar. Ele é conhecido por ser um atirador de elite habilidoso, usando um estilingue e munições especiais." data-name="Sogeking">
+                    <img src="./src/imagens/cartaz_sogeking.webp" alt="Personagem Sogeking">
+                </li>
+
+                <li class="personagem" id="franky" data-description="Franky é um engenheiro talentoso e um ciborgue com habilidades e poderes únicos. Ele utiliza diversas armas embutidas em seu corpo, como lançadores de foguetes, braços extensíveis e canhões de artilharia." data-name="Franky">
+                    <img src="./src/imagens/cartaz_franky.webp" alt="Personagem Franky">
+                </li>
+            </ul>
+
+
+        </section> 
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/luffy.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Monkey D. Luffy</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Luffy é um jovem pirata determinado a se
+                    tornar o Rei dos Piratas. Ele possui poderes elásticos e lidera a tripulação dos Chapéus de Palha.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
